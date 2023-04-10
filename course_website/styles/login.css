@@ -1,0 +1,69 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    top: 0px;
+}
+
+
+.blank button{
+    border: 1.7px solid rgb(21, 21, 47);
+    margin-top:3rem;
+    width: 3rem;
+    font-size: 1.4rem;
+    border-radius: 78rem;
+}
+.login-btn{
+    border: 1px solid black;
+}
+
+.post {
+    background-image: linear-gradient(to right , rgb(90, 90, 252),rgb(170, 5, 170));
+    padding: 1rem 1rem;
+    width: 40%;
+    border-radius: .6rem;
+    margin: 1rem auto;
+}
+
+.form h3 {
+    margin-top: -.4rem;
+    font-size: 2rem;
+    color: white;
+}
+.blank {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(26, 26, 26, 0.804);
+    z-index: 2;
+    top: 0px;
+    display: none;
+}
+.hidden-login {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 26%;
+    z-index: 4;
+    display: none;
+}
+
+input {
+    height: 26px;
+    margin: .8rem auto;
+    width: 53%;
+
+}
+
+.login-btn {
+    width: 50%;
+    margin: 1rem auto;
+    
+}
+
+
+input::placeholder {
+    color: black;
+    font-size: 1rem;
+}
+

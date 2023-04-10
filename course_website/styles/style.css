@@ -1,0 +1,466 @@
+/* .......................................UNIVERSAL....................................... */
+
+body {
+    padding: 0px;
+    margin:  auto;
+    text-align: center;
+    align-content: center;
+    transition: 1s;
+    overflow-x: hidden;
+}
+
+h4 {
+    font-size: 7vmin;
+    color: #0011ffd4;
+    margin: 5rem 0rem;
+}
+
+
+.card {
+    background-color: white;
+    border: 0.1px solid rgb(214, 214, 251);
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 7px 7px rgba(173, 173, 173, 0.269);
+    margin: auto;
+    max-width: 30%;
+    padding: 8rem 0rem;
+}
+
+
+/* ....................................NAVBAR SECTION......................................  */
+
+
+
+.logo img{
+    width: 114px;
+    height: 74px;
+    top: 0px;
+    margin-left: 2.2rem;
+    margin-top: .4rem; 
+}
+
+.list {
+    display: flex;
+}
+
+.list a {
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.list a:hover{
+    color: rgb(4, 74, 135);
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    margin-top: -1rem;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.984);
+}
+
+.button{
+    margin: auto;
+    margin-top:1.4rem;
+}
+
+.button button{
+    width: 6rem;
+    margin-left:1rem;
+}
+
+
+/* ....................................HEADER SECTION......................................  */
+
+
+.headerBtn button{
+    width: 21%;
+    margin-top: 4rem;
+    padding: 1.1rem;
+    background-image: linear-gradient(to right,rgb(10, 10, 231),rgb(175, 175, 253));
+    font-size: large;
+}
+    
+.header-image img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    filter: blur(6px);
+    opacity: .9;
+    left: 0%;
+    top: 0%;
+    height: 43rem;
+}
+
+header {
+    background-blend-mode: hard-light;
+    background-position: center;
+    height: 85vmin;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 100% 180%;
+    
+}
+
+.headerbtn button{
+    margin-right: 2rem;
+}
+
+.headercontent {
+    font-size:1.4rem;
+    z-index: -1;
+    margin-top: 12rem;
+    font-weight: 600px;
+    text-align: center;
+
+
+}
+
+.centerImg img {
+    width: 100%;
+    height: 270px;
+}
+
+
+.sideimg img {
+    height: 54rem;
+    width: 67rem;
+    margin-left: -3rem;
+}
+
+
+/* ..................................WHAT WE OFFER.......................................... */
+
+
+.first-content p{
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: -2rem;
+}
+.cards{
+    display: flex;
+}
+.service-card{
+    background-color: rgba(138, 196, 244, 0.132);
+    border: 0.1px solid rgb(214, 214, 251);
+    color: rgb(0, 0, 0);
+    margin:auto 2rem;
+    max-width: 30%;
+    transition: .6s;
+    padding: 6rem 3rem;
+    border-radius: 0rem 5rem 1rem 1rem;
+}
+.service-card:hover{
+    cursor: pointer;
+    background-color: rgba(47, 106, 255, 0.356);
+    box-shadow: 7px 7px 7px rgba(173, 173, 173, 0.269);
+}
+
+
+/* ......................................COURSES SECTION........................................... */
+
+
+.secondSection {
+    text-align: center;
+    align-content: center;
+}
+
+.pricing-content button{
+    font-size: 1.1rem;
+}
+.pricing-content h5{
+    font-size: 1.6rem;
+}
+
+.secondSectionCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}
+
+.blog-card {
+    display: flex;
+    text-align: left;
+    width: 46%;
+    border-radius: 1rem;
+    border: 2px solid blue;
+}
+
+.blog2{
+    margin-top: -11rem;
+    margin-left: 53%;
+}
+.view-more{
+    width: 20%;
+    padding: .5rem;
+    font-size: 1.2rem;
+    margin-top: 6rem;
+}
+
+.blog-card img {
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    margin-right: 2rem;
+    margin-left: -1rem;
+    border-radius:0rem 2rem 2rem 0rem  ;
+}
+
+.blog-card button {
+    margin-top: 2rem;
+    width: 7rem;
+    text-align: center;
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+}
+
+
+/* ......................................TESTIMONIALS SECTION.......................................... */
+
+.fourthSectionCards {
+    display: flex;
+    overflow: hidden;
+}
+.arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+
+}
+
+.arrows img {
+    margin: 14rem 32.5rem;
+    cursor: pointer;
+    height: 30px;
+    margin-left: 14rem;
+}
+.testimonials-card {
+    min-width: 50%;
+    min-height: 50%;
+    margin: 2% 25%;
+    margin-bottom: 4rem;
+    transition: .8s;
+}
+
+.testimonials-card p {
+    margin: auto;
+    width: 35rem;
+}
+
+.testimonials-card img {
+    height: 13rem;
+    width: 15rem;
+    border-radius: 300rem;
+    background-size: cover;
+}
+
+.card button {
+    border: 1px solid rgb(60, 85, 79);
+    border-radius: .2rem;
+    width: 40%;
+    margin-top: 5rem;
+    box-shadow: rgba(183, 184, 184, 0.087);
+}
+
+
+/*..........................................  OUR PRICING ............................................. */
+
+
+
+.pricing-card {
+    border-radius: .9rem;
+    height: 11rem;
+    width: 28%;
+}
+
+.card p {
+    margin-top: -2rem;
+    margin: auto;
+    font-size: 3vmin;
+    width: 70%;
+
+}
+
+.card h5 {
+    margin: 6rem auto;
+    margin-top: -5rem;
+    font-size: 1.6rem;
+    width: 80%;
+
+}
+
+.pricing-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 6px 9px 30px grey;
+    transition: .5s;
+}
+
+.pricing-card p {
+    margin-top: -2rem;
+}
+
+button {
+    padding: .6rem;
+    background-image: linear-gradient(to right, rgb(41, 41, 255), rgb(81, 111, 235));
+    color: aliceblue;
+    border: 0px;
+    font-size: 1rem;
+    border-radius: .5rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to left, rgb(41, 41, 255), rgb(92, 124, 249));
+}
+
+.pricingCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0rem;
+
+}
+
+
+/*.............................................. NEWSLETTER SECTION................................................... */
+
+.newsLetter {
+    background-color: rgb(74, 102, 255);
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: space-around;
+    align-items: center;
+    height: 12rem;
+    padding: 2rem 0rem;
+}
+
+.newsLetter input {
+    margin-bottom: 2rem;
+    color: white;
+    background-color: rgb(74, 102, 255);
+    padding: .4rem;
+    width: 30%;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.newsLetter h3{
+    margin-left: 4rem;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+input::placeholder {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+
+
+/*............................................... FAQ SECTION ........................................................ */
+
+
+
+.container{
+    border:5px double rgb(50, 132, 247);
+    border-top: 0px;   
+    border-bottom: 0px;   
+    padding: .5rem 1.6rem;
+    width: 54%;
+    margin: 2.3rem auto;
+    display: grid;
+    grid-template-columns: auto 2fr auto ;
+    gap: 1.8rem;
+    text-align: start;
+    cursor: pointer;
+}
+.container li{
+    list-style: circle;
+}
+.faq{
+    text-transform: capitalize;
+    font-size: 1.62rem;
+}
+.container p{
+    width: 2rem;
+    margin: auto;
+}
+.hidden{
+    display: none;
+    grid-column:2/3 ;
+}
+.active .hidden{
+    transition: 1s;
+    display: block;
+}
+.container .icon{
+    transform: rotate(45deg);
+}
+.close{
+    width: 6rem;
+}
+.icons{
+    margin-top: auto;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+
+
+
+/*................................................ FOOTER SECTION  ............................................. */
+
+
+
+footer {
+    background-image: linear-gradient(.2deg,#608fd4 4.8%,#2651d1d8 85.5%);
+    color: rgb(255, 255, 255);
+    margin-top: 4rem;
+}
+.footer h5{
+    font-size: 1.9rem;
+}
+.footer p{
+    top: 0px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+}
+.copyright p {
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.logo-p{
+    padding-top: 2rem;
+    text-align: start;
+}
+
+.socialmediaicons img{
+    height: 30px;
+    width: 30px;
+    margin: 0rem 1rem;
+    cursor: pointer;
+}
