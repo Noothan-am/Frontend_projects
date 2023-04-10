@@ -1,0 +1,39 @@
+.six {
+     display: flex;
+     margin: 3rem;
+}
+
+.left_part {
+     display: flex;
+     flex-direction: column;
+     width: 15%;
+     margin: 0rem 2rem;
+}
+
+.right_part {
+     margin-top: 1.4rem;
+}
+
+.left_part button {
+     margin: .5rem;
+     height: 50px;
+     border: none;
+     background-color: white;
+     cursor: pointer;
+}
+
+.left_part button:active {
+     border-left: 1px solid blue;
+     color: blue;
+}
+
+.six-card {
+     margin-top: 1rem;
+}
+
+.date,
+.cmpny,
+.list,
+.title {
+     margin-top: 1rem;
+}

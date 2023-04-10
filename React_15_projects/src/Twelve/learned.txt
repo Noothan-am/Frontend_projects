@@ -1,0 +1,1 @@
+1. how to use global context hook for toggling the class if one or more compnent is share a same state

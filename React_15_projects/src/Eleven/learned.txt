@@ -1,0 +1,6 @@
+1. keep all the data seperatly and sync your app with data so if data change it should automatically reflects in app
+like here in navbar 
+2. if we toggle the html dom then we cannot get the animation on it so we toggle classname as done in navbar componenet because once we 
+toggle the dom it mounts the whole dom and unmounts it again insted we add and delete css 
+3. how to set height using useRef hook
+4. useRef is most commonly used to reference the element and manipulate it 

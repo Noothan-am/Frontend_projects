@@ -1,0 +1,4 @@
+1. onchange neednot to be done using states we can do it using single function to just show it in input feild but to store that 
+     value and use it in somewhare you must use state 
+2. how to use useCallback for prevent infinate render of the component specially while handling with functions   
+3. how to handle uncontrolled compnent using useRef and manipulate dom elements and how to change state using useref

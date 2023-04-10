@@ -1,0 +1,52 @@
+.register{
+    width: 70%;
+    margin: 7rem auto;
+    background: linear-gradient(to right,rgb(254, 119, 248), #eaddb3);
+    border: 0px solid;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.register_btn{
+    padding: 0vmin 1vmin;
+}
+
+.register_content{
+    font-family: 'Cabin Sketch', cursive;
+    width: 70%;
+    padding:2rem;
+}
+
+.register_content p,h3{
+    color: black;
+}
+
+.register_btn button{ 
+    padding: 1.6vmin 2vmin;
+    font-size: 1rem;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(137, 202, 239, 0.904);
+    color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+@media (max-width:840px) {
+    
+    .register{
+        width: 80%;
+    }
+    
+    .register_content{
+        width: 96%;
+    }
+    .register_btn button{ 
+        width: 130%;
+        margin-bottom:1rem;
+        margin-left: -1rem;
+    }
+}

@@ -1,0 +1,4 @@
+1. Set object which returns the unique value from the list
+2. how to use set 
+     ex- new Set(items.map(item=> return item)); it returns an object of unique elements in items to convert it to array we spread this
+          inside array

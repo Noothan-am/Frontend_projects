@@ -1,0 +1,81 @@
+.footers{
+    background-color: rgb(10, 19, 55);
+    padding-top: .1rem;
+}
+
+.footer{
+    width: 85%;
+    margin: 0rem auto;
+    margin-top: 2rem;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0rem;
+}
+
+.footer_copyright{
+    text-align: center;
+}
+
+.footer_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.4rem auto;
+}
+
+.link{
+    margin: 4rem 1rem;
+}
+
+.link h4{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.footer_btn button{
+    padding: .8rem 2.8rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    border: 2px solid rgb(137, 135, 135);
+    background-color:rgb(10, 19, 55);
+    border-radius: .3rem;
+}
+
+.footer_btn button:hover{
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+
+.footer_logo{
+    margin: 2rem auto;
+}
+
+.footer_logo img{
+    width: 80px;
+    height: 60px;
+}
+
+.footer_heading h1{
+    background: -webkit-linear-gradient(-60deg,rgb(239, 105, 232), #f7df91);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width:650px) {
+    
+    .link{
+        margin: 4vmin 8vmin;
+    }
+    .footer_links{
+        margin: 2rem auto;
+    }
+}

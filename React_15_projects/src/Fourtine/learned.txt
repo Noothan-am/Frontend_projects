@@ -1,0 +1,4 @@
+1. learned more about how to change state from useReducer to manage state 
+2. learned more about setting up global usecontext api 
+3. learned about reduce function which is used to get total amount in this project
+4. how to set state after fetching url using useReducer 

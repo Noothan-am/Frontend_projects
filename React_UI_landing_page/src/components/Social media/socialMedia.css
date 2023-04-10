@@ -1,0 +1,12 @@
+.socialMedia{
+    width: 85%;
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.socialMedia img{
+    margin: 2rem 2rem;
+    color: white;
+}

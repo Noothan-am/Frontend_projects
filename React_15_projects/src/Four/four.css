@@ -1,0 +1,33 @@
+.heading h2 {
+     text-align: center;
+}
+
+.accordian {
+     border: 2px solid black;
+     padding: .2rem 1rem;
+     margin: 1.3rem 0rem;
+}
+
+.title {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     cursor: pointer;
+}
+
+/* h3 { */
+/* } */
+
+button {
+     width: 2rem;
+     height: 2rem;
+     border: none;
+     background-color: white;
+     cursor: pointer;
+}
+
+.accordians {
+     width: 50%;
+     margin: auto;
+}

@@ -1,0 +1,5 @@
+export {default as Navbar} from "./Navbar/Navbar"
+export {default as SocialMedia} from "./Social media/SocialMedia"
+export {default as Comp} from "./Feature/Comp"
+export {default as Register} from "./Register/Register"
+export {default as Card} from "./Card/Card"

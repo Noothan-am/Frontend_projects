@@ -1,0 +1,43 @@
+.features {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7rem auto;
+    flex-wrap: wrap;
+    margin-bottom: 8rem;
+}
+
+
+.features_left-part {
+    margin: auto;
+    margin-top: 3rem;
+    width: 50%;
+    
+}
+
+.features_right-part{
+    margin: auto;
+}
+.features_right-part h3 {
+    color: aliceblue;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.features_left-part h1 {
+    font-size: 2.7rem;
+    line-height: 50px;
+    font-family: 'Averia Libre', cursive;
+}
+
+@media (max-width:600px) {
+    .features_left-part {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .features_right-part{
+        margin-top:3rem;
+    }
+}

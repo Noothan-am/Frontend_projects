@@ -1,0 +1,144 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+    text-align: left;
+    font-family: 'Chivo Mono', monospace;
+    max-width: 90%;
+    margin: auto;
+}
+
+.navbar_img {
+    text-align: left;
+}
+
+.navbar_img img {
+    width: 80px;
+    height: 60px;
+}
+
+.navbar_links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_links a {
+    text-decoration: none;
+    color: white;
+    margin: 0rem 1rem;
+}
+.navbar_links a:hover {
+    color: rgb(161, 191, 255);
+}
+
+.navbar_sign {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar_links p,
+.navbar_sign p,
+.navbar_sign button,
+.navbar_img span {
+    font-size: 1.2vmax;
+    color: white;
+    cursor: pointer;
+}
+.navbar_sign p:hover{
+    color: rgb(168, 199, 252);
+}
+
+.navbar_sign button {
+    padding: .4rem 1.2rem;
+    font-size: .9rem;
+    background-color: rgb(255, 172, 5);
+    border: 2px solid rgb(255, 170, 0);
+    border-radius: .6rem;
+    cursor: pointer;
+
+}
+
+.navbar_menu svg {
+    width: 20px;
+    height: 30px;
+}
+
+.navbar_menu {
+    display: none;
+    align-items: center;
+}
+
+@media (max-width:800px) {
+    .navbar {
+        position: sticky;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar_menu {
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+    }
+    .navbar_links-toggle a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
+    .navbar_links-toggle button {
+        padding: .4rem 1.2rem;
+        width: 100%;
+        font-size: .9rem;
+        margin-top: 1.3rem;
+        background-color: rgb(255, 172, 5);
+        border: 2px solid rgb(255, 170, 0);
+        border-radius: .6rem;    
+    }
+
+    .navbar_links-toggle p{
+        margin-top: 1.8rem;
+        font-size: 1.5rem;
+    }
+
+    .navbar_links-toggle{
+        position: absolute;
+        top: 4rem;
+        background-color: rgba(0, 0, 0, 78%);
+        opacity: 1.5;
+        padding: 2rem;
+        list-style: none;
+    }
+    .navbar_sign,
+    .navbar_links {
+        display: none;
+    }
+
+    .navbar_img img {
+        margin-top: 1.4rem;
+    }
+
+    .navbar_links a {
+        font-size: 1.3vmax;
+    }
+}
+
+@media (max-width:1080px) {
+
+    .navbar_links p,
+    .navbar_sign p,
+    .navbar_sign button,
+    .navbar_img span {
+        font-size: 1.2vmax;
+    }
+
+    .navbar_sign {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:1900px) {
+    .navbar {
+        width: 74%;
+    }
+}

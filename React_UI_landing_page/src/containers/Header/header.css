@@ -1,0 +1,109 @@
+.header{
+    max-width: 85%;
+    margin: auto;
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.header_text{
+    background: -webkit-linear-gradient(-60deg,rgb(249, 146, 244), #d8c484);
+    background-clip: text;
+    margin-top: 1rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     font-family: 'Cabin Sketch', cursive;
+    font-size: 3.3rem;
+}
+
+.header_paragraph p{
+    margin-top: 3rem;
+    color: rgb(204, 204, 241);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header_input{
+    margin-top: 3rem;
+}
+
+.header_input input::placeholder{
+    color: white;
+}
+
+.header_input input{
+    padding: 1.6vmin .8vmin;
+    background-color: rgb(11, 11, 13);
+    border: 1px solid rgba(182, 227, 253, 0.904);
+    color: white;
+    font-size: 1rem;
+    width: 60%;
+}
+
+.header button{
+    padding: 1.6vmin 2vmin;
+    font-size: 1rem;
+    background-color: rgb(224, 87, 14);
+    border: 1px solid rgba(137, 202, 239, 0.904);
+    color: blanchedalmond;
+    margin-bottom: 4rem;
+}
+.header button:hover{
+    cursor: pointer;
+}
+
+.header_paragraph{
+color: white;
+}
+.header_image{
+    text-align: center;
+}
+.header_image img{
+    max-height: 90%;
+    max-width: 90%;
+    margin-right: -5.5rem;
+}
+
+
+@media (min-width:810px) {
+    .header_image img{
+        max-height: 98%;
+        max-width: 105%;
+    }
+    
+}
+@media (max-width:800px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .header_image img{
+        margin-top: -5rem;
+        margin-right:0rem;
+    }
+}
+
+@media (max-width:1100px) {
+    
+    .header_input button{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .header_content input{
+        width: 98%;
+    
+    }
+}
+
+@media (min-width:1900px) {
+    .header{
+        width: 70%;
+    }
+    .header_image img{
+        margin-bottom: 3rem;
+    }
+}

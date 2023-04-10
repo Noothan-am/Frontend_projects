@@ -1,0 +1,2 @@
+1. learned how to use values.js
+2. convert rgbtohex

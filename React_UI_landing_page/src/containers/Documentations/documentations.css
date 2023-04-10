@@ -1,0 +1,22 @@
+.documentation{
+    width: 87%;
+    margin:5rem auto;
+}
+.documentation_cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.documentation_heading h1{
+    background: -webkit-linear-gradient(-60deg,rgb(220, 104, 241), #ffde73);
+    background-clip: text;
+    font-size: 4vmax;
+    margin: 3rem 1rem;
+    text-align: center;
+    margin-top: 8rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     font-family: 'Cabin Sketch', cursive;
+}

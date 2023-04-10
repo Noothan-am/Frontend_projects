@@ -1,0 +1,5 @@
+1. how to show loading page while rendering 
+2. instead of passing each prop you simply pass {...prop} 
+3. how to use if else to catch and render the particular component like  
+4. if you are using the if statement and it satisfies then that comopnent is only returned not other comopnents 
+     until we change the state or do something which causes re-render.

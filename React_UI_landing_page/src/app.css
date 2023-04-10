@@ -1,0 +1,18 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   color: aliceblue;
+}
+
+.bg_gradient{
+   background:-moz-linear-gradient(270deg, rgba(9, 15, 101, 1) 0%, rgba(3, 4, 25, 1) 57%, rgba(0, 0, 0, 1) 100%); 
+   background:-webkit-linear-gradient(270deg, rgba(9, 15, 101, 1) 0%, rgba(3, 4, 25, 1) 57%, rgba(0, 0, 0, 1) 100%);
+   background:-o-linear-gradient(270deg, rgba(9, 15, 101, 1) 0%, rgba(3, 4, 25, 1) 57%, rgba(0, 0, 0, 1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#090F65', endColorstr='#000000', GradientType=0 );
+   background:-ms-linear-gradient(270deg, rgba(9, 15, 101, 1) 0%, rgba(3, 4, 25, 1) 57%, rgba(0, 0, 0, 1) 100%);
+   background:linear-gradient(270deg, rgba(9, 15, 101, 1) 0%, rgba(3, 4, 25, 1) 57%, rgba(0, 0, 0, 1) 100%);
+
+}
+.App{
+   background-color: rgb(1, 9, 32);
+}

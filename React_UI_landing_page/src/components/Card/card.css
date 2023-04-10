@@ -1,0 +1,38 @@
+.card{
+    margin: 2rem .6rem;
+    min-width: 10%;
+    max-width: 40%;
+    background:-moz-linear-gradient(14deg, rgba(50, 55, 182, 1) 0%, rgba(12, 14, 71, 1) 51%, rgba(3, 10, 78, 1) 100%); 
+    background:-webkit-linear-gradient(14deg, rgba(50, 55, 182, 1) 0%, rgba(12, 14, 71, 1) 51%, rgba(3, 10, 78, 1) 100%);
+    background:-o-linear-gradient(14deg, rgba(50, 55, 182, 1) 0%, rgba(12, 14, 71, 1) 51%, rgba(3, 10, 78, 1) 100%);
+    background:-ms-linear-gradient(14deg, rgba(50, 55, 182, 1) 0%, rgba(12, 14, 71, 1) 51%, rgba(3, 10, 78, 1) 100%);
+    background:linear-gradient(14deg, rgba(50, 55, 182, 1) 0%, rgba(12, 14, 71, 1) 51%, rgba(3, 10, 78, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3237B6', endColorstr='#030A4E', GradientType=1 ); 
+    min-width: 500px;
+}
+
+.card_content {
+    padding: .5rem 1.6rem;
+}
+
+.card_content p{
+    margin: 1.4rem auto;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+}
+
+@media (max-width:1200px) {
+    .card{
+        min-width: 70%;
+    }
+}
+
+@media (max-width:650px) {
+    .card{
+        min-width: 95%;
+    }
+    
+}
